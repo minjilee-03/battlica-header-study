@@ -1,0 +1,88 @@
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-container-wrap{
+    display: none;
+}
+
+.main-contianer-wrap {
+    height: 5000px;
+    margin: 0;
+    background-color: #555;
+    padding: 0;
+    border-width: 0;
+}
+.main-contianer-wrap .mobile-header-container-wrap{
+    height: 65px;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: center;
+}
+.main-contianer-wrap .mobile-header-container-wrap .header-inner{
+    padding: 0px 15px;
+    height: 100%;
+}
+.main-contianer-wrap .mobile-header-container-wrap .header-inner
+.header-logo-wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.main-contianer-wrap .mobile-header-container-wrap .header-inner
+.header-logo-wrap .header-logo-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.main-contianer-wrap .mobile-header-container-wrap .header-inner
+.header-logo-wrap .header-logo-link .header-logo-image {
+    height: auto;
+    width: 133px;
+} 
+.main-contianer-wrap .mobile-header-container-wrap 
+.header-inner .header-logo-wrap .mobile-header-menu{
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -12px;
+    left: 15px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: #222;
+    opacity: 1;
+}
+
+.main-contianer-wrap .mobile-header-container-wrap 
+.header-inner .header-logo-wrap .mobile-header-menu .menu-icon{
+    display: block;
+}
+
+
+.main-contianer-wrap .mobile-header-container-wrap 
+.header-inner .header-logo-wrap .login-wrap {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image:url('../img/login-icon.png');
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    right:15px;
+}
